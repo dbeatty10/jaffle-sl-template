@@ -3,7 +3,7 @@ version: "1.0.0"
 config-version: 2
 
 # 👇 Update this to point to the name of your Snowflake profile in `profiles.yml`
-profile: "sandcastle-snowflake"
+profile: "snowflake"
 # 👆 Either update this or create a profile named `snowflake` within `profiles.yml`
 
 require-dbt-version: ">=1.6.0-b6"
