@@ -14,8 +14,8 @@ Install metricflow, et al within a virtual environment:
 python -m venv .env
 source .env/bin/activate
 python -m pip install --upgrade pip
-python -m pip install metricflow==0.200.0.dev12
-python -m pip install --upgrade dbt-snowflake==1.6.0b3
+python -m pip install --upgrade metricflow~=0.200.0.dev0
+python -m pip install --upgrade dbt-snowflake~=1.6.0dev0
 source .env/bin/activate
 dbt --version
 mf --version
