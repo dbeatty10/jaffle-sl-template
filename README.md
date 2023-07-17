@@ -11,11 +11,11 @@ cd jaffle-sl-template
 
 Install metricflow, et al within a virtual environment:
 ```shell
-python -m venv .env
+python3 -m venv .env
 source .env/bin/activate
-python -m pip install --upgrade pip
-python -m pip install --upgrade metricflow~=0.200.0.dev0
-python -m pip install --upgrade dbt-snowflake~=1.6.0dev0
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade metricflow~=0.200.0.dev0
+python3 -m pip install --upgrade dbt-snowflake~=1.6.0dev0
 source .env/bin/activate
 dbt --version
 mf --version
